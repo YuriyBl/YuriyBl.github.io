@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/projects/jira-hours/static/js/main.172ebadf.js",
+    "main.js": "/projects/jira-hours/static/js/main.49fdc1dd.js",
     "index.html": "/projects/jira-hours/index.html",
-    "main.172ebadf.js.map": "/projects/jira-hours/static/js/main.172ebadf.js.map"
+    "main.49fdc1dd.js.map": "/projects/jira-hours/static/js/main.49fdc1dd.js.map"
   },
   "entrypoints": [
-    "static/js/main.172ebadf.js"
+    "static/js/main.49fdc1dd.js"
   ]
 }

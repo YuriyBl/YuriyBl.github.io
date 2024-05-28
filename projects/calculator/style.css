@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	flex-direction: column;
+}
+.lastMarks {
+	height: 8vh;
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+.lastMarks .mark {
+	width: 7vh;
+	height: 7vh;
+	border-radius: 100%;
+	box-sizing: border-box;
+
+	border: 2px solid grey;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: grey;
+	font-size: 20px;
+}
+
+.avrg {
+	width: 100%;
+	height: 25vh;
+	line-height: 25vh;
+	font-size: 80px;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.buttons {
+	height: 9vh;
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.backBtn, .resetBtn  {
+	width: 40%;
+	height: 7vh;
+	line-height: 7vh;
+	background: grey;
+	color: white;
+	text-align: center;
+	font-size: 25px
+}
+
+.marksButtons {
+	width: 100%;
+	height: 50vh
+}
+.row {
+	height: 24%;
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 1%;
+}
+
+.btn {
+	width: 100%;
+	margin: 2px;
+	height: 100%;
+	border-radius: 3px;
+	box-sizing: border-box;
+
+	border: 2px solid grey;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: grey;
+	font-size: 20px;
+}
